@@ -1,0 +1,67 @@
+.business-card{
+    padding: 40px 25px;
+    width: 317px;
+    margin: auto;
+    display: block;
+}
+.personal-pic{
+    width: 317px;
+    height: 317px;   
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    margin-bottom: 0;
+}
+.content{
+    background-color: #1A1B21;
+    padding: 10px;
+    margin-top: 0;
+    display: block;
+}
+.person-name{
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.person-job{
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: normal;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.person-description{
+    color: #FFFFFF;
+    font-size: x-small;
+}
+.email-linkedin{
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+.email-button{
+    margin-right: 20px;
+}
+.person-information{
+    padding: 20px;
+}
+.paragraph-title{
+    color: #F5F5F5;
+    text-align: left;
+    font-size: 16px;
+    margin: 1px;
+}
+.paragraph{
+    padding: 10px 3px;
+    color: #DCDCDC;
+    font-size: 10.24px;
+    text-align: left;
+    margin: 0;
+}
+.card-footer{
+    background-color: #161619;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 15px;
+}
+.media-button{
+    margin-right: 20px;
+}

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: #E5E5E5;
+}
+.navbar{
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+}
+.image-container{
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    height: 300px;
+}
+.images{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.image1{
+    position: absolute;
+    margin-left: 77px;
+    margin-top: 84.81px;
+    border-radius: 1rem;
+}
+.image2{
+    position: absolute;
+    margin-left: 157.75px;
+    margin-top: 43.23px;
+    border-radius: 1rem;
+}
+.image3{
+    position: absolute;
+    margin-left: 157.75px;
+    margin-top: 115.54px;
+    border-radius: 1rem;
+}
+.image4{
+    position: absolute;
+    margin-left: 238.5px;
+    margin-top: 66.13px;
+    border-radius: 1rem;
+}
+.image5{
+    position: absolute;
+    margin-left: 238.5px;
+    margin-top: 171.58px;
+    border-radius: 1rem;
+}
+.image6{
+    position: absolute;
+    margin-left: 319.85px;
+    margin-top: 36px;
+    border-radius: 1rem;
+}
+.image7{
+    position: absolute;
+    margin-left: 319.85px;
+    margin-top: 141.45px;
+    border-radius: 1rem;
+}
+.image8{
+    position: absolute;
+    margin-left: 400.59px;
+    margin-top: 54.08px;
+    border-radius: 1rem;
+}
+.image9{
+    position: absolute;
+    margin-left: 400.59px;
+    margin-top: 158.93px;
+    border-radius: 1rem;
+}
+.about{
+    margin-top: 0;
+    background-color: #FFFFFF;
+}
+.title{
+    margin-left: 30px;
+    margin-top: 0;
+}
+.description{
+    margin-left: 30px;
+    width: 320px;
+    margin-bottom: 0;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    background-color: #FFFFFF;
+    margin-top: 0;
+    overflow: hidden;
+}

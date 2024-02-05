@@ -1,8 +1,6 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-color: #282D35;
 
 }
@@ -43,6 +41,10 @@ code {
 .main-body{
   text-align: start;
   padding: 25px;
+
+  background-image: url("../src/images/reactjs-icon2.png");
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 .list-items{
   color: #FFFFFF;

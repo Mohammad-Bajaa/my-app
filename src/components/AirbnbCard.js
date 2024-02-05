@@ -9,7 +9,11 @@ import status from '../images/Airbnb/Group 80.png'
     return (
       <div className="card">
         <img className="card-status" src={status}/>
-        <img className="card-image" src={require(`../images/Airbnb/${props.image}`)}/>
+        {
+          console.log('../images/Airbnb/' + props.image)
+        }
+        src\images\Airbnb\image 12.png
+        <img className="card-image" src={require('/images/Airbnb/' + props.image)}/>
         <br></br>
         
         <img className="star" src={star}/>

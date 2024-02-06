@@ -37,7 +37,7 @@ import Image9 from '../images/Airbnb/image 30.png'
             </div>
             <div className="cards">
                 <AirbnbCard 
-                    image = "image 12.png"
+                    image = "image12.png"
                     rate = "5.0"
                     quantity = {6}
                     country = "USA"

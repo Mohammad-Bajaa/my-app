@@ -4,16 +4,12 @@ import star from '../images/Airbnb/Star 1.png'
 import status from '../images/Airbnb/Group 80.png'
 
 
-
  export default function AirbnbCard(props) {
     return (
       <div className="card">
         <img className="card-status" src={status}/>
-        {
-          console.log('../images/Airbnb/' + props.image)
-        }
-        src\images\Airbnb\image 12.png
-        <img className="card-image" src={require('/images/Airbnb/' + props.image)}/>
+
+        <img className="card-image" src={`/images/Airbnb/${props.image}`}/>
         <br></br>
         
         <img className="star" src={star}/>

@@ -85,7 +85,9 @@ body{
 }
 .cards{
     width: 100%;
+    flex: 0 0 auto;
     display: flex;
+    flex-direction: row;
     background-color: #FFFFFF;
     margin-top: 0;
     overflow: hidden;

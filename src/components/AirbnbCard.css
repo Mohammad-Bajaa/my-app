@@ -4,6 +4,8 @@
 }
 .card-image{
     display: inline-block;
+    width: 260px;
+    height: 350px;
 }
 .card-status{
     position: absolute;

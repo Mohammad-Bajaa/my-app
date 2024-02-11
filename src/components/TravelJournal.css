@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #F55A5A;
+}
+.nav-container{
+    display: flex;
+    width: max-content;
+    margin: auto;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 14.46px;
+    font-weight: 600;
+}
+.logo{
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+.nav-content{
+    margin-top: 3px;
+}
+.posts{
+    padding: 30px 20px;
+}

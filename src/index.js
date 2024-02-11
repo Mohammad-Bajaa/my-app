@@ -1,18 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
-import Header from './components/Header.js';
-import MainContent from './components/MainContent.js';
-import Footer from './components/Footer.js';
-import App from './App.js';
-
+// import MemeGenerator from './components/MemeGenerator.js';
+import App from './App';
 
 
 function Index(){
   return(
     <div className='container'>
-      <App/>
+      <App />
     </div>
     
 

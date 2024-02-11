@@ -11,8 +11,15 @@ import Image6 from '../images/Airbnb/image 27.png'
 import Image7 from '../images/Airbnb/image 28.png'
 import Image8 from '../images/Airbnb/image 29.png'
 import Image9 from '../images/Airbnb/image 30.png'
+import Posts from '../data.js'
 
   export default function Airbnb () {
+    const postElements = Posts.map(post=>{
+        return <AirbnbCard 
+            key= {post.id}
+            post = {post}
+        />
+    })
     return (
         <div className="body-page">
             <nav className="navbar">
@@ -36,14 +43,7 @@ import Image9 from '../images/Airbnb/image 30.png'
                 <p className="description">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
             </div>
             <div className="cards">
-                <AirbnbCard 
-                    image = "image12.png"
-                    rate = "5.0"
-                    quantity = {6}
-                    country = "USA"
-                    title = "Life lessons with Katie Zaferes"
-                    price = {136}
-                />
+                {postElements}
             </div>
 
         </div>

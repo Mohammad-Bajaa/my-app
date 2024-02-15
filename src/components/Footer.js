@@ -1,10 +1,9 @@
 import React from "react"
-
-  export default function Footer()
+import './Footer.css'
+  export default function Footer(props)
 { return (
-  <footer>
-    © created By Mohammad Ali Hussain Bajaa. 
-    <br/>All rights reserved
+  <footer className={props.darkMode ? "dark-footer" : "light-footer"}>
+    © created By Mohammad Ali Hussain Bajaa, All rights reserved.
   </footer>
 ) 
 }

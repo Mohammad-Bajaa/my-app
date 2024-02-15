@@ -1,0 +1,17 @@
+footer{
+    padding: 20px;
+  position: fixed; /* Change 'absolute' to 'fixed' */
+  bottom: 0;
+  left: 0; /* Add 'left: 0' to ensure it starts from the left edge of the screen */
+  right: 0; /* Add 'right: 0' to ensure it ends at the right edge of the screen */
+  text-align: center;
+  transition: .3s;
+  }
+  .dark-footer{
+    color: white;
+    background-color: rgb(48, 48, 48);
+  }
+  .light-footer{
+    color: black;
+    background-color: #b8b8aa;
+  }

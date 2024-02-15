@@ -1,15 +1,14 @@
-/* body {
+ * {
   margin: 0;
   font-family: Inter, sans-serif;
-  background-color: #FFFFFF;
 
-} */
+} 
 
-
+/*
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+}*/
 /*
 .nav{
   display: flex;
@@ -68,12 +67,76 @@ footer{
 }*/
 /* *{
   box-sizing: border-box;
-}
-.box{
+  background-color: #FFFFFF;
+} */
+
+/* .main-form{
+  padding: 50px;
+  /* display: flex;
+  flex-direction: column; 
+} */
+/* .box{
   height: 100px;
   width: 100px;
   border: 1px solid black;
   display: inline-block;
-  margin-right: 4px;
-  border-radius: 5px;
+  margin-right: 2px;
+  border-radius: 10px;
+}
+.box:hover{
+  background-color: brown; 
+  transition: 1.5s;
+}
+.input-text{
+  padding: 10px;
+  margin-right: 20px;
+  text-indent: 3px;
+  border-radius: 10px;
+}
+.input-text:focus{
+  border: 5px solid #686868;
+  background-color: black;
+  color: white;
+}
+.input-submit{
+  padding: 5px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.choices{
+  
+} */
+
+/* .custom-form{
+  padding: 50px;
+  margin: auto;
+  margin-top: 5rem;
+  width: 400px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 25px;
+}
+.input-text{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid silver;
+  background-color: white;
+}
+.check-div{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+}
+#label{
+  background-color: white;
+}
+#form-button-submit{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: (93, 34, 119);
+  color: white;
+  font-weight: bold;
 } */

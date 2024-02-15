@@ -78,5 +78,86 @@ export default [
     {
         id: 20,
         on: false
+    },
+    {
+        id: 21,
+        on: true
+    },
+    {
+        id: 22,
+        on: false
+    },
+    {
+        id: 23,
+        on: true
+    },
+    {
+        id: 24,
+        on: true
+    },
+    {
+        id: 25,
+        on: false
+    },
+    {
+        id: 26,
+        on: false
+    },
+    {
+        id: 27,
+        on: true
+    },
+    {
+        id: 28,
+        on: true
+    },
+    {
+        id: 29,
+        on: true
+    },
+    {
+        id: 30,
+        on: true
+    },
+    {
+        id: 31,
+        on: true
+    },
+    {
+        id: 32,
+        on: false
+    },
+    {
+        id: 33,
+        on: true
+    },
+    {
+        id: 34,
+        on: true
+    },
+    {
+        id: 35,
+        on: false
+    },
+    {
+        id: 36,
+        on: false
+    },
+    {
+        id: 37,
+        on: true
+    },
+    {
+        id: 38,
+        on: true
+    },
+    {
+        id: 39,
+        on: true
+    }
+    ,
+    {
+        id: 40,
+        on: true
     }
 ]

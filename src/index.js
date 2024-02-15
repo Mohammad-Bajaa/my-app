@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-// import MemeGenerator from './components/MemeGenerator.js';
+// import './index.css';
+// // import MemeGenerator from './components/MemeGenerator.js';
 import App from './App';
-
+// import MemeGenerator from './components/MemeGenerator';
+// import WindowTracker from './components/WindowTracker';
 
 function Index(){
   return(
     <div className='container'>
-      <App />
+      <App/>
     </div>
     
 

@@ -5,6 +5,8 @@
   height: 60px;
   flex: none;
   background-color: #b8b8aa;
+  /* background-color: rgb(24,70,93); */
+
   transition: .3s;
 } 
 .react-logo{

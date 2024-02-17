@@ -2,9 +2,10 @@
   display: flex;
   align-items: center;
   padding: 30px 25px;
-  height: 60px;
+  /* height: 60px; */
   flex: none;
   background-color: #b8b8aa;
+  justify-content: space-between;
   /* background-color: rgb(24,70,93); */
 
   transition: .3s;
@@ -35,8 +36,95 @@
   color:#DEEBF8;
   font-weight: 600;
 }
+.title-block{
+  display: flex;
+  /* Make a horizontal flexbox (the default) */
+	flex-direction: row;
+	
+	/* The important part: vertically center the items */
+	align-items: center;
+}
+.title-block h1{
+  text-align: center;
 
+}
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
+.navbar-links li{
+  list-style: none;
+}
+.navbar-links li a{
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.toggle-button{
+  position: absolute;
+  top: 3.5rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.toggle-button:hover{
+  cursor: pointer;
+}
+@media (max-width: 800px){
+  .toggle-button{
+    display: flex;
+  }
+  .navbar-links{
+    transition: .5s;
+    height: 0;
+    overflow: hidden;
+    /* opacity: 0; */
+    width: 100%;
+    
+  }
+  .navbar-links.active {
+    height: 150px;
+    transition: .5s;
+    
+  }
+  .nav{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav ul{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li{
+    text-align: center;
+  }
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+  .navbar-links li div{
+    margin: 0 auto;
+    position: relative;
+  }
+  #darkmode-toggle-label{
+    margin: 0 auto;
+  }
+  .navbar-links.active{
+    display: flex;
+  }
+}
 #darkmode-toggle-label{
   width: 50px;
   height: 20px;

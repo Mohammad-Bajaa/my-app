@@ -4,6 +4,13 @@ import './Navbar.css'
   export default function Navbar (props) {
     return (
         <header className={props.darkMode ? "nav dark-nav" : "nav"}>
+          {/* <navbar className="my-nav">
+            <ul className="nav-list">
+              <li className="nav-item">My CV</li>
+              <li className="nav-item">About Developer</li>
+              <li className="nav-item">Contact Me</li>
+            </ul>
+          </navbar> */}
             <img className="react-logo" src = {ReactLogo} alt="react-logo"/>
             <h1 className={props.darkMode ? "project-name dark-h1" : "project-name"}> Work & Experience </h1>
             {/* <h3 className="project-description">Mohammad Hussain Bajaa</h3> */}

@@ -3,14 +3,27 @@ import ReactDOM from 'react-dom/client';
 // import './index.css';
 // // import MemeGenerator from './components/MemeGenerator.js';
 import App from './App';
+import { BrowserRouter } from 'react-router-dom';
+import { useEffect } from 'react';
 // import MemeGenerator from './components/MemeGenerator';
 // import WindowTracker from './components/WindowTracker';
 
 function Index(){
+  useEffect(() => {
+    document.title = 'Mohammad Bajaa'; // Set the desired page title here
+  }, []);
   return(
-    <div className='container'>
-      <App/>
+    <html>
+      <head>
+      <link rel="icon" type="image/png" href="/images/Bajaa/icon.ico"/>
+      </head>
+      <div className='container'>
+      <BrowserRouter>
+        <App/>
+      </BrowserRouter>
     </div>
+    </html>
+    
     
 
   )

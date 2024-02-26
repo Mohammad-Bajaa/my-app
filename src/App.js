@@ -5,13 +5,18 @@
 // import Airbnb from './components/Airbnb';
 // import boxes from './boxes';
 import React from 'react';
-import Box from './box';
-import Header from './components/Header'
+// import Box from './box';
+// import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar';
 // import MemeGenerator from './components/MemeGenerator'
 import './App.css'
+import { Routes, Route } from 'react-router-dom';
+import MyCV from './components/MyCV';
+import ContactMe from './components/ContactMe';
+// import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import MyCV from './components/MyCV';
 
 function App() {
   // const [messages, setMessages] = React.useState(["1","2"])
@@ -194,9 +199,18 @@ function App() {
   </form> }
 </div> */
   <div className='body'>
-    <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-    <Main darkMode={darkMode}/>
-    <Footer darkMode={darkMode}/>
+    <div className='grid-container'>
+    <Navbar className="nav-container" darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
+    <div className='main-container'>
+    <Routes>
+      <Route path='' element={<Main darkMode={darkMode}/>} ></Route>
+      <Route path='/components/MyCV' element={<MyCV  darkMode={darkMode} />} ></Route>
+      <Route path='/components/ContactMe' element={<ContactMe  darkMode={darkMode} />} ></Route>
+      
+    </Routes>
+    </div>
+    <Footer className="footer-container" darkMode={darkMode}/>
+    </div>
   </div>
 
   )};

@@ -41,19 +41,37 @@
 * {
   margin: 0;
   font-family: Inter, sans-serif;
-  
 
 } 
-.body{
-  /* height: 100vh; */
-  /* min-height: 100%; */
-  
+html, body{
+}
 
+.grid-container{
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: minmax(1fr, auto);
+  ;
+  grid-template-areas: 
+  "header header header header header"
+  "main   main   main   main   main"
+  "main   main   main   main   main"
+  "main   main   main   main   main"
+  "footer footer footer footer footer";
+  align-items: stretch; /* Stretch items vertically */
+  justify-items: stretch; /* Stretch items horizontally */
+  ;
+}
+.nav{
+  grid-area: header;
+}
+.main-container{
+  grid-area: main;
+  align-self: stretch; 
   
 }
-body{
-  /* background-image: url("../src/images/Bajaa/logo.png");
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 400px 400px; */
+footer{
+  grid-area: footer;
+  align-self: end;
 }

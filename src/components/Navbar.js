@@ -1,11 +1,15 @@
 import React from "react"
 import ReactLogo from "../images/Bajaa/logo.png"
 import './Navbar.css'
+import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import MyCV from "./MyCV"
+
 
   export default function Navbar (props) {
     function collapseBar(){
       const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-      navbarLinks.classList.toggle('active')
+      navbarLinks.
+      classList.toggle('active')
     }
     return (
         <header className={props.darkMode ? "nav dark-nav" : "nav"}>
@@ -26,12 +30,23 @@ import './Navbar.css'
                 <span className="bar"></span>
               </a>
             {/* <h3 className="project-description">Mohammad Hussain Bajaa</h3> */}
-            <div className="navbar-links">
-              
+            <div className="navbar-links">            
               <ul className="nav-list">
-                <li className="nav-item"> <a href="#">My CV</a></li>
-                <li className="nav-item"> <a href="#">About Developer</a></li>
-                <li className="nav-item"> <a href="#">Contact Me</a></li>
+                <li className="nav-item">
+                  <Link to="/">
+                    Home
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/components/MyCV">
+                    My CV
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/components/ContactMe">
+                    Contact Me
+                  </Link>
+                </li>
                 <li className="nav-item">
                   <div className="dark-light-button" >
                     <input type="checkbox" id="darkmode-toggle"/>

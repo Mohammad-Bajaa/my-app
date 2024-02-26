@@ -203,7 +203,7 @@ function App() {
     <Navbar className="nav-container" darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
     <div className='main-container'>
     <Routes>
-      <Route path='' element={<Main darkMode={darkMode}/>} ></Route>
+      <Route path='/' element={<Main darkMode={darkMode}/>} ></Route>
       <Route path='/components/MyCV' element={<MyCV  darkMode={darkMode} />} ></Route>
       <Route path='/components/ContactMe' element={<ContactMe  darkMode={darkMode} />} ></Route>
       

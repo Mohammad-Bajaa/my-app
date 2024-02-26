@@ -4,12 +4,12 @@ import './MyCV.css';
 export default function MyCV(props) {
   function downloadCv(){
     var link = document.createElement('a');
-    link.href = '/Files/Mohammad Bajaa-CV12.02.2024.pdf';
+    link.href = '../Files/Mohammad Bajaa-CV12.02.2024.pdf';
     link.download = 'Mohammad Bajaa-CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    console.log("downloaded successfully!")
+    console.log(link.href)
   }
     return(
   <div className={props.darkMode ? "cv-main-body cv-dark-main": "cv-main-body cv-light-main"}>

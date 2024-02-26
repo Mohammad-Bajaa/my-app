@@ -50,7 +50,7 @@ import MyCV from "./MyCV"
                 <li className="nav-item">
                   <div className="dark-light-button" >
                     <input type="checkbox" id="darkmode-toggle"/>
-                    <label id="darkmode-toggle-label" for="darkmode-toggle" onClick={props.toggleDarkMode}/>    
+                    <label id="darkmode-toggle-label" htmlFor="darkmode-toggle" onClick={props.toggleDarkMode}/>    
                   </div>
                 </li>
               </ul>

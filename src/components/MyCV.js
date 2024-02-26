@@ -4,7 +4,7 @@ import './MyCV.css';
 export default function MyCV(props) {
   function downloadCv(){
     var link = document.createElement('a');
-    link.href = '../Files/Mohammad Bajaa-CV12.02.2024.pdf';
+    link.href = '../Files/MohammadBajaa-CV12.02.2024.pdf';
     link.download = 'Mohammad Bajaa-CV.pdf';
     document.body.appendChild(link);
     link.click();
